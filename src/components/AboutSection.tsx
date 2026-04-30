@@ -34,6 +34,10 @@ export default function AboutSection() {
                 <span>📸</span>
                 <span>@mahmadrajab.r</span>
               </a>
+              <a href="mailto:mahmadrajabrahimov1@gmail.com" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                <span>✉️</span>
+                <span>mahmadrajabrahimov1@gmail.com</span>
+              </a>
             </div>
           </div>
 
