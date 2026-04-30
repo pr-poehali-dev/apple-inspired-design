@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
+  'https://cdn.poehali.dev/projects/77e7ba54-26d8-4144-956b-f2b4a96c5a92/files/8989db85-b595-4d32-adda-b069206265c7.jpg',
   'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
   'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
   'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
 ];
 
 export default function HeroSection() {
@@ -70,10 +70,10 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Алексей Иванов
+                  Фотограф & Визуальный художник
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  Основы компьютера через объектив
                 </p>
                 <div className="flex gap-6 pt-4">
                   <a
