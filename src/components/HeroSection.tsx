@@ -75,7 +75,15 @@ export default function HeroSection() {
                 <p className="text-xl font-light text-white/80 md:text-2xl">
                   Фотограф & СММ специалист
                 </p>
-                <div className="flex gap-6 pt-4">
+                <div className="pt-2">
+                  <a
+                    href="tel:+79997670704"
+                    className="inline-block bg-white text-black px-8 py-3 text-sm font-medium tracking-widest uppercase hover:bg-white/90 transition-colors duration-300"
+                  >
+                    Позвонить мне
+                  </a>
+                </div>
+                <div className="flex gap-6 pt-2">
                   <a
                     href="https://t.me/itsrahimov"
                     target="_blank"

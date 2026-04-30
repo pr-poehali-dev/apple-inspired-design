@@ -20,9 +20,21 @@ export default function AboutSection() {
               Мне 23 года, я из Таджикистана. Занимаюсь фотографией и помогаю людям и брендам выглядеть круто в интернете. Снимаю, создаю контент и веду социальные сети.
             </p>
             <div className="w-12 h-px bg-white/30" />
-            <p className="text-white/50 text-sm">
-              Открыт к сотрудничеству и новым проектам
-            </p>
+            <div className="space-y-3">
+              <p className="text-white/50 text-sm uppercase tracking-widest">Контакты</p>
+              <a href="tel:+79997670704" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                <span>📞</span>
+                <span>+7 999 767-07-04</span>
+              </a>
+              <a href="https://t.me/itsrahimov" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                <span>✈️</span>
+                <span>@itsrahimov</span>
+              </a>
+              <a href="https://instagram.com/mahmadrajab.r" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                <span>📸</span>
+                <span>@mahmadrajab.r</span>
+              </a>
+            </div>
           </div>
 
           <div className="space-y-4">
