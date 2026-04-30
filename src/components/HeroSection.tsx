@@ -73,7 +73,7 @@ export default function HeroSection() {
                   Махмадраджаб Рахимов
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Основы компьютера через объектив
+                  Фотограф & СММ специалист
                 </p>
                 <div className="flex gap-6 pt-4">
                   <a
